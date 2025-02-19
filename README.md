@@ -1,7 +1,7 @@
 # OpenLeRF3D
 OpenLerf3D: Open-Vocabulary 3D Instance Segmentation with SAI3D and LeRF Guidance
 
-![OpenLerf3D_Model](https://i.ibb.co/kgjLz5LD/openlerf3d-pipeline.png)
+![OpenLerf3D_Model](https://i.ibb.co/MDrzKZz1/openlerf3d-pipeline.png)
 
 ## Installation
 
