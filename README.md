@@ -28,3 +28,26 @@ wget https://cvg-data.inf.ethz.ch/nice-slam/data/Replica.zip
 unzip Replica.zip
 cd ..
 python datasets/replica_preprocess.py
+```
+
+
+## Running OpenLeRF3D
+
+Add workdir path and then:
+
+Run training
+
+```bash
+python run_training.py
+```
+
+Run queries
+
+```bash
+python run_query.py
+```
+## Evaluation
+
+```bash
+python datasets/eval_replica.py
+```
