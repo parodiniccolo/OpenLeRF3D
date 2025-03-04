@@ -1,0 +1,21 @@
+[project]
+name = "lerf"
+version = "0.1.1"
+
+dependencies=[
+    "open_clip_torch",
+    "timm",
+    "ftfy",
+    "regex",
+    "tqdm",
+    "clip @ git+https://github.com/openai/CLIP.git",
+    "nerfstudio>=0.3.1"
+]
+
+[tool.setuptools.packages.find]
+include = ["lerf*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+lerf = 'lerf.lerf_config:lerf_method'
+lerf_big = 'lerf.lerf_config:lerf_method_big'
+lerf_lite = 'lerf.lerf_config:lerf_method_lite'

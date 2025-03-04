@@ -1,0 +1,3 @@
+/media/dc-04-vol03/Niccolo/econom_depth_replica/econom-3d/third_party/SAI3D/Segmentator/CMakeFiles/segmentator.dir
+/media/dc-04-vol03/Niccolo/econom_depth_replica/econom-3d/third_party/SAI3D/Segmentator/CMakeFiles/edit_cache.dir
+/media/dc-04-vol03/Niccolo/econom_depth_replica/econom-3d/third_party/SAI3D/Segmentator/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+RESULT_NAME="demo_scannet_5view_merge200_2-norm_semantic-sam_connect(0.9,0.5,5)_depth2"
+python helpers/format_convertion.py --app=1 --base_dir="/media/dc-04-vol03/Niccolo/SAI3D/data/ScanNet/results/${RESULT_NAME}" --out_dir="/media/dc-04-vol03/Niccolo/SAI3D/data/class_agnostic_masks"
