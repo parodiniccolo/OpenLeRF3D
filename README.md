@@ -4,6 +4,11 @@ OpenLeRF3D is an interactive tool that enables natural language querying of 3D s
 
 
 
+https://github.com/user-attachments/assets/5c49d693-3b9b-4c7c-a297-4cb8ec81bf4c
+
+
+
+
 ## Features
 
 - **Natural Language 3D Querying**: Find objects and regions in 3D scenes using text descriptions
