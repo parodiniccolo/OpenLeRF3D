@@ -1,0 +1,21 @@
+[project]
+name = "depthlerf"
+version = "0.1.1"
+
+dependencies=[
+    "open_clip_torch",
+    "timm",
+    "ftfy",
+    "regex",
+    "tqdm",
+    "clip @ git+https://github.com/openai/CLIP.git",
+    "nerfstudio>=0.3.1"
+]
+
+[tool.setuptools.packages.find]
+include = ["depthlerf*"]
+
+[project.entry-points.'nerfstudio.method_configs']
+depthlerf = 'depthlerf.depthlerf_config:depthlerf_method'
+depthlerf_big = 'depthlerf.depthlerf_config:depthlerf_method_big'
+depthlerf_lite = 'depthlerf.depthlerf_config:depthlerf_method_lite'
